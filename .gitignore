@@ -1,0 +1,22 @@
+# Raw data, caches and generated artifacts are never committed.
+data/
+out/
+release/
+*.zip
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+.DS_Store
+.ipynb_checkpoints/
+
+# Generated audit sheets (rebuilt by `python -m lapsus build`)
+audit/*.csv

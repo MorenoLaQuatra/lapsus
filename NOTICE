@@ -1,0 +1,30 @@
+Lapsus
+Copyright 2026 The Lapsus authors (<AUTHOR_NAME>)
+
+This product includes software developed by the Lapsus authors and is
+licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Dataset content
+---------------
+Lapsus labels, corruptions and annotations are released under Apache-2.0.
+The sentences themselves keep the licence of their source, recorded per row
+in the `license` column and summarised in ATTRIBUTION.md, which is generated
+by `python -m lapsus build` and shipped with every release and Hub mirror.
+
+* Tatoeba (https://tatoeba.org): sentences by the Tatoeba contributors,
+  CC BY 2.0 FR unless released as CC0 1.0.
+
+Test fixtures
+-------------
+tests/fixtures/morphit_subset.txt is a small subset of the Morph-it! lexicon
+(Marco Baroni and Eros Zanchetta, https://docs.sslmit.unibo.it/doku.php?id=resources:morph-it),
+dual licensed CC BY-SA 2.0 and LGPL. It is used only by the offline tests and
+keeps that licence. tests/fixtures/parses_*.json contain Stanza analyses of
+sentences written by the Lapsus authors.
+
+Tools used at build time (not redistributed)
+--------------------------------------------
+Stanza (Apache-2.0; Italian models trained on non-commercial treebanks),
+LanguageTool (LGPL-2.1-or-later), Morph-it! (CC BY-SA 2.0 / LGPL),
+LemmInflect (MIT), lingua-language-detector (Apache-2.0), datasketch (MIT),
+openai-community/gpt2 (MIT), Qwen/Qwen2.5-0.5B (Apache-2.0).

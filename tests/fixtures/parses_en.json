@@ -1,0 +1,1546 @@
+[
+ {
+  "text": "The children are playing in the garden.",
+  "tokens": [
+   "The",
+   "children",
+   "are",
+   "playing",
+   "in",
+   "the",
+   "garden."
+  ],
+  "info": [
+   {
+    "upos": "DET",
+    "lemma": "the",
+    "feats": {
+     "Definite": "Def",
+     "PronType": "Art"
+    },
+    "head": 1,
+    "deprel": "det",
+    "words": [
+     [
+      "The",
+      "the",
+      "DET",
+      "Definite=Def|PronType=Art",
+      "det"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "NOUN",
+    "lemma": "child",
+    "feats": {
+     "Number": "Plur"
+    },
+    "head": 3,
+    "deprel": "nsubj",
+    "words": [
+     [
+      "children",
+      "child",
+      "NOUN",
+      "Number=Plur",
+      "nsubj"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "AUX",
+    "lemma": "be",
+    "feats": {
+     "Mood": "Ind",
+     "Number": "Plur",
+     "Person": "3",
+     "Tense": "Pres",
+     "VerbForm": "Fin"
+    },
+    "head": 3,
+    "deprel": "aux",
+    "words": [
+     [
+      "are",
+      "be",
+      "AUX",
+      "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
+      "aux"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "VERB",
+    "lemma": "play",
+    "feats": {
+     "Tense": "Pres",
+     "VerbForm": "Part"
+    },
+    "head": -1,
+    "deprel": "root",
+    "words": [
+     [
+      "playing",
+      "play",
+      "VERB",
+      "Tense=Pres|VerbForm=Part",
+      "root"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "ADP",
+    "lemma": "in",
+    "feats": {},
+    "head": 6,
+    "deprel": "case",
+    "words": [
+     [
+      "in",
+      "in",
+      "ADP",
+      "",
+      "case"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "DET",
+    "lemma": "the",
+    "feats": {
+     "Definite": "Def",
+     "PronType": "Art"
+    },
+    "head": 6,
+    "deprel": "det",
+    "words": [
+     [
+      "the",
+      "the",
+      "DET",
+      "Definite=Def|PronType=Art",
+      "det"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "NOUN",
+    "lemma": "garden",
+    "feats": {
+     "Number": "Sing"
+    },
+    "head": 3,
+    "deprel": "obl",
+    "words": [
+     [
+      "garden",
+      "garden",
+      "NOUN",
+      "Number=Sing",
+      "obl"
+     ]
+    ],
+    "contracted": false
+   }
+  ],
+  "n_roots": 1,
+  "ok": true,
+  "reason": ""
+ },
+ {
+  "text": "She has finished her homework.",
+  "tokens": [
+   "She",
+   "has",
+   "finished",
+   "her",
+   "homework."
+  ],
+  "info": [
+   {
+    "upos": "PRON",
+    "lemma": "she",
+    "feats": {
+     "Case": "Nom",
+     "Gender": "Fem",
+     "Number": "Sing",
+     "Person": "3",
+     "PronType": "Prs"
+    },
+    "head": 2,
+    "deprel": "nsubj",
+    "words": [
+     [
+      "She",
+      "she",
+      "PRON",
+      "Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs",
+      "nsubj"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "AUX",
+    "lemma": "have",
+    "feats": {
+     "Mood": "Ind",
+     "Number": "Sing",
+     "Person": "3",
+     "Tense": "Pres",
+     "VerbForm": "Fin"
+    },
+    "head": 2,
+    "deprel": "aux",
+    "words": [
+     [
+      "has",
+      "have",
+      "AUX",
+      "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin",
+      "aux"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "VERB",
+    "lemma": "finish",
+    "feats": {
+     "Tense": "Past",
+     "VerbForm": "Part"
+    },
+    "head": -1,
+    "deprel": "root",
+    "words": [
+     [
+      "finished",
+      "finish",
+      "VERB",
+      "Tense=Past|VerbForm=Part",
+      "root"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "PRON",
+    "lemma": "her",
+    "feats": {
+     "Case": "Gen",
+     "Gender": "Fem",
+     "Number": "Sing",
+     "Person": "3",
+     "Poss": "Yes",
+     "PronType": "Prs"
+    },
+    "head": 4,
+    "deprel": "nmod:poss",
+    "words": [
+     [
+      "her",
+      "her",
+      "PRON",
+      "Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs",
+      "nmod:poss"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "NOUN",
+    "lemma": "homework",
+    "feats": {
+     "Number": "Sing"
+    },
+    "head": 2,
+    "deprel": "obj",
+    "words": [
+     [
+      "homework",
+      "homework",
+      "NOUN",
+      "Number=Sing",
+      "obj"
+     ]
+    ],
+    "contracted": false
+   }
+  ],
+  "n_roots": 1,
+  "ok": true,
+  "reason": ""
+ },
+ {
+  "text": "This book is on the table.",
+  "tokens": [
+   "This",
+   "book",
+   "is",
+   "on",
+   "the",
+   "table."
+  ],
+  "info": [
+   {
+    "upos": "DET",
+    "lemma": "this",
+    "feats": {
+     "Number": "Sing",
+     "PronType": "Dem"
+    },
+    "head": 1,
+    "deprel": "det",
+    "words": [
+     [
+      "This",
+      "this",
+      "DET",
+      "Number=Sing|PronType=Dem",
+      "det"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "NOUN",
+    "lemma": "book",
+    "feats": {
+     "Number": "Sing"
+    },
+    "head": 5,
+    "deprel": "nsubj",
+    "words": [
+     [
+      "book",
+      "book",
+      "NOUN",
+      "Number=Sing",
+      "nsubj"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "AUX",
+    "lemma": "be",
+    "feats": {
+     "Mood": "Ind",
+     "Number": "Sing",
+     "Person": "3",
+     "Tense": "Pres",
+     "VerbForm": "Fin"
+    },
+    "head": 5,
+    "deprel": "cop",
+    "words": [
+     [
+      "is",
+      "be",
+      "AUX",
+      "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin",
+      "cop"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "ADP",
+    "lemma": "on",
+    "feats": {},
+    "head": 5,
+    "deprel": "case",
+    "words": [
+     [
+      "on",
+      "on",
+      "ADP",
+      "",
+      "case"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "DET",
+    "lemma": "the",
+    "feats": {
+     "Definite": "Def",
+     "PronType": "Art"
+    },
+    "head": 5,
+    "deprel": "det",
+    "words": [
+     [
+      "the",
+      "the",
+      "DET",
+      "Definite=Def|PronType=Art",
+      "det"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "NOUN",
+    "lemma": "table",
+    "feats": {
+     "Number": "Sing"
+    },
+    "head": -1,
+    "deprel": "root",
+    "words": [
+     [
+      "table",
+      "table",
+      "NOUN",
+      "Number=Sing",
+      "root"
+     ]
+    ],
+    "contracted": false
+   }
+  ],
+  "n_roots": 1,
+  "ok": true,
+  "reason": ""
+ },
+ {
+  "text": "I want to go to the station.",
+  "tokens": [
+   "I",
+   "want",
+   "to",
+   "go",
+   "to",
+   "the",
+   "station."
+  ],
+  "info": [
+   {
+    "upos": "PRON",
+    "lemma": "I",
+    "feats": {
+     "Case": "Nom",
+     "Number": "Sing",
+     "Person": "1",
+     "PronType": "Prs"
+    },
+    "head": 1,
+    "deprel": "nsubj",
+    "words": [
+     [
+      "I",
+      "I",
+      "PRON",
+      "Case=Nom|Number=Sing|Person=1|PronType=Prs",
+      "nsubj"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "VERB",
+    "lemma": "want",
+    "feats": {
+     "Mood": "Ind",
+     "Number": "Sing",
+     "Person": "1",
+     "Tense": "Pres",
+     "VerbForm": "Fin"
+    },
+    "head": -1,
+    "deprel": "root",
+    "words": [
+     [
+      "want",
+      "want",
+      "VERB",
+      "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
+      "root"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "PART",
+    "lemma": "to",
+    "feats": {},
+    "head": 3,
+    "deprel": "mark",
+    "words": [
+     [
+      "to",
+      "to",
+      "PART",
+      "",
+      "mark"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "VERB",
+    "lemma": "go",
+    "feats": {
+     "VerbForm": "Inf"
+    },
+    "head": 1,
+    "deprel": "xcomp",
+    "words": [
+     [
+      "go",
+      "go",
+      "VERB",
+      "VerbForm=Inf",
+      "xcomp"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "ADP",
+    "lemma": "to",
+    "feats": {},
+    "head": 6,
+    "deprel": "case",
+    "words": [
+     [
+      "to",
+      "to",
+      "ADP",
+      "",
+      "case"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "DET",
+    "lemma": "the",
+    "feats": {
+     "Definite": "Def",
+     "PronType": "Art"
+    },
+    "head": 6,
+    "deprel": "det",
+    "words": [
+     [
+      "the",
+      "the",
+      "DET",
+      "Definite=Def|PronType=Art",
+      "det"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "NOUN",
+    "lemma": "station",
+    "feats": {
+     "Number": "Sing"
+    },
+    "head": 3,
+    "deprel": "obl",
+    "words": [
+     [
+      "station",
+      "station",
+      "NOUN",
+      "Number=Sing",
+      "obl"
+     ]
+    ],
+    "contracted": false
+   }
+  ],
+  "n_roots": 1,
+  "ok": true,
+  "reason": ""
+ },
+ {
+  "text": "He lives in a small house near the river.",
+  "tokens": [
+   "He",
+   "lives",
+   "in",
+   "a",
+   "small",
+   "house",
+   "near",
+   "the",
+   "river."
+  ],
+  "info": [
+   {
+    "upos": "PRON",
+    "lemma": "he",
+    "feats": {
+     "Case": "Nom",
+     "Gender": "Masc",
+     "Number": "Sing",
+     "Person": "3",
+     "PronType": "Prs"
+    },
+    "head": 1,
+    "deprel": "nsubj",
+    "words": [
+     [
+      "He",
+      "he",
+      "PRON",
+      "Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs",
+      "nsubj"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "VERB",
+    "lemma": "live",
+    "feats": {
+     "Mood": "Ind",
+     "Number": "Sing",
+     "Person": "3",
+     "Tense": "Pres",
+     "VerbForm": "Fin"
+    },
+    "head": -1,
+    "deprel": "root",
+    "words": [
+     [
+      "lives",
+      "live",
+      "VERB",
+      "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin",
+      "root"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "ADP",
+    "lemma": "in",
+    "feats": {},
+    "head": 5,
+    "deprel": "case",
+    "words": [
+     [
+      "in",
+      "in",
+      "ADP",
+      "",
+      "case"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "DET",
+    "lemma": "a",
+    "feats": {
+     "Definite": "Ind",
+     "PronType": "Art"
+    },
+    "head": 5,
+    "deprel": "det",
+    "words": [
+     [
+      "a",
+      "a",
+      "DET",
+      "Definite=Ind|PronType=Art",
+      "det"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "ADJ",
+    "lemma": "small",
+    "feats": {
+     "Degree": "Pos"
+    },
+    "head": 5,
+    "deprel": "amod",
+    "words": [
+     [
+      "small",
+      "small",
+      "ADJ",
+      "Degree=Pos",
+      "amod"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "NOUN",
+    "lemma": "house",
+    "feats": {
+     "Number": "Sing"
+    },
+    "head": 1,
+    "deprel": "obl",
+    "words": [
+     [
+      "house",
+      "house",
+      "NOUN",
+      "Number=Sing",
+      "obl"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "ADP",
+    "lemma": "near",
+    "feats": {},
+    "head": 8,
+    "deprel": "case",
+    "words": [
+     [
+      "near",
+      "near",
+      "ADP",
+      "",
+      "case"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "DET",
+    "lemma": "the",
+    "feats": {
+     "Definite": "Def",
+     "PronType": "Art"
+    },
+    "head": 8,
+    "deprel": "det",
+    "words": [
+     [
+      "the",
+      "the",
+      "DET",
+      "Definite=Def|PronType=Art",
+      "det"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "NOUN",
+    "lemma": "river",
+    "feats": {
+     "Number": "Sing"
+    },
+    "head": 5,
+    "deprel": "nmod",
+    "words": [
+     [
+      "river",
+      "river",
+      "NOUN",
+      "Number=Sing",
+      "nmod"
+     ]
+    ],
+    "contracted": false
+   }
+  ],
+  "n_roots": 1,
+  "ok": true,
+  "reason": ""
+ },
+ {
+  "text": "We were waiting for the bus at the corner.",
+  "tokens": [
+   "We",
+   "were",
+   "waiting",
+   "for",
+   "the",
+   "bus",
+   "at",
+   "the",
+   "corner."
+  ],
+  "info": [
+   {
+    "upos": "PRON",
+    "lemma": "we",
+    "feats": {
+     "Case": "Nom",
+     "Number": "Plur",
+     "Person": "1",
+     "PronType": "Prs"
+    },
+    "head": 2,
+    "deprel": "nsubj",
+    "words": [
+     [
+      "We",
+      "we",
+      "PRON",
+      "Case=Nom|Number=Plur|Person=1|PronType=Prs",
+      "nsubj"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "AUX",
+    "lemma": "be",
+    "feats": {
+     "Mood": "Ind",
+     "Number": "Plur",
+     "Person": "1",
+     "Tense": "Past",
+     "VerbForm": "Fin"
+    },
+    "head": 2,
+    "deprel": "aux",
+    "words": [
+     [
+      "were",
+      "be",
+      "AUX",
+      "Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin",
+      "aux"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "VERB",
+    "lemma": "wait",
+    "feats": {
+     "Tense": "Pres",
+     "VerbForm": "Part"
+    },
+    "head": -1,
+    "deprel": "root",
+    "words": [
+     [
+      "waiting",
+      "wait",
+      "VERB",
+      "Tense=Pres|VerbForm=Part",
+      "root"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "ADP",
+    "lemma": "for",
+    "feats": {},
+    "head": 5,
+    "deprel": "case",
+    "words": [
+     [
+      "for",
+      "for",
+      "ADP",
+      "",
+      "case"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "DET",
+    "lemma": "the",
+    "feats": {
+     "Definite": "Def",
+     "PronType": "Art"
+    },
+    "head": 5,
+    "deprel": "det",
+    "words": [
+     [
+      "the",
+      "the",
+      "DET",
+      "Definite=Def|PronType=Art",
+      "det"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "NOUN",
+    "lemma": "bus",
+    "feats": {
+     "Number": "Sing"
+    },
+    "head": 2,
+    "deprel": "obl",
+    "words": [
+     [
+      "bus",
+      "bus",
+      "NOUN",
+      "Number=Sing",
+      "obl"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "ADP",
+    "lemma": "at",
+    "feats": {},
+    "head": 8,
+    "deprel": "case",
+    "words": [
+     [
+      "at",
+      "at",
+      "ADP",
+      "",
+      "case"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "DET",
+    "lemma": "the",
+    "feats": {
+     "Definite": "Def",
+     "PronType": "Art"
+    },
+    "head": 8,
+    "deprel": "det",
+    "words": [
+     [
+      "the",
+      "the",
+      "DET",
+      "Definite=Def|PronType=Art",
+      "det"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "NOUN",
+    "lemma": "corner",
+    "feats": {
+     "Number": "Sing"
+    },
+    "head": 2,
+    "deprel": "obl",
+    "words": [
+     [
+      "corner",
+      "corner",
+      "NOUN",
+      "Number=Sing",
+      "obl"
+     ]
+    ],
+    "contracted": false
+   }
+  ],
+  "n_roots": 1,
+  "ok": true,
+  "reason": ""
+ },
+ {
+  "text": "The dog eats an apple every morning.",
+  "tokens": [
+   "The",
+   "dog",
+   "eats",
+   "an",
+   "apple",
+   "every",
+   "morning."
+  ],
+  "info": [
+   {
+    "upos": "DET",
+    "lemma": "the",
+    "feats": {
+     "Definite": "Def",
+     "PronType": "Art"
+    },
+    "head": 1,
+    "deprel": "det",
+    "words": [
+     [
+      "The",
+      "the",
+      "DET",
+      "Definite=Def|PronType=Art",
+      "det"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "NOUN",
+    "lemma": "dog",
+    "feats": {
+     "Number": "Sing"
+    },
+    "head": 2,
+    "deprel": "nsubj",
+    "words": [
+     [
+      "dog",
+      "dog",
+      "NOUN",
+      "Number=Sing",
+      "nsubj"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "VERB",
+    "lemma": "eat",
+    "feats": {
+     "Mood": "Ind",
+     "Number": "Sing",
+     "Person": "3",
+     "Tense": "Pres",
+     "VerbForm": "Fin"
+    },
+    "head": -1,
+    "deprel": "root",
+    "words": [
+     [
+      "eats",
+      "eat",
+      "VERB",
+      "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin",
+      "root"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "DET",
+    "lemma": "a",
+    "feats": {
+     "Definite": "Ind",
+     "PronType": "Art"
+    },
+    "head": 4,
+    "deprel": "det",
+    "words": [
+     [
+      "an",
+      "a",
+      "DET",
+      "Definite=Ind|PronType=Art",
+      "det"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "NOUN",
+    "lemma": "apple",
+    "feats": {
+     "Number": "Sing"
+    },
+    "head": 2,
+    "deprel": "obj",
+    "words": [
+     [
+      "apple",
+      "apple",
+      "NOUN",
+      "Number=Sing",
+      "obj"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "DET",
+    "lemma": "every",
+    "feats": {
+     "PronType": "Ind"
+    },
+    "head": 6,
+    "deprel": "det",
+    "words": [
+     [
+      "every",
+      "every",
+      "DET",
+      "PronType=Ind",
+      "det"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "NOUN",
+    "lemma": "morning",
+    "feats": {
+     "Number": "Sing"
+    },
+    "head": 2,
+    "deprel": "obl:tmod",
+    "words": [
+     [
+      "morning",
+      "morning",
+      "NOUN",
+      "Number=Sing",
+      "obl:tmod"
+     ]
+    ],
+    "contracted": false
+   }
+  ],
+  "n_roots": 1,
+  "ok": true,
+  "reason": ""
+ },
+ {
+  "text": "My brother works at the hospital.",
+  "tokens": [
+   "My",
+   "brother",
+   "works",
+   "at",
+   "the",
+   "hospital."
+  ],
+  "info": [
+   {
+    "upos": "PRON",
+    "lemma": "my",
+    "feats": {
+     "Case": "Gen",
+     "Number": "Sing",
+     "Person": "1",
+     "Poss": "Yes",
+     "PronType": "Prs"
+    },
+    "head": 1,
+    "deprel": "nmod:poss",
+    "words": [
+     [
+      "My",
+      "my",
+      "PRON",
+      "Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs",
+      "nmod:poss"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "NOUN",
+    "lemma": "brother",
+    "feats": {
+     "Number": "Sing"
+    },
+    "head": 2,
+    "deprel": "nsubj",
+    "words": [
+     [
+      "brother",
+      "brother",
+      "NOUN",
+      "Number=Sing",
+      "nsubj"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "VERB",
+    "lemma": "work",
+    "feats": {
+     "Mood": "Ind",
+     "Number": "Sing",
+     "Person": "3",
+     "Tense": "Pres",
+     "VerbForm": "Fin"
+    },
+    "head": -1,
+    "deprel": "root",
+    "words": [
+     [
+      "works",
+      "work",
+      "VERB",
+      "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin",
+      "root"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "ADP",
+    "lemma": "at",
+    "feats": {},
+    "head": 5,
+    "deprel": "case",
+    "words": [
+     [
+      "at",
+      "at",
+      "ADP",
+      "",
+      "case"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "DET",
+    "lemma": "the",
+    "feats": {
+     "Definite": "Def",
+     "PronType": "Art"
+    },
+    "head": 5,
+    "deprel": "det",
+    "words": [
+     [
+      "the",
+      "the",
+      "DET",
+      "Definite=Def|PronType=Art",
+      "det"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "NOUN",
+    "lemma": "hospital",
+    "feats": {
+     "Number": "Sing"
+    },
+    "head": 2,
+    "deprel": "obl",
+    "words": [
+     [
+      "hospital",
+      "hospital",
+      "NOUN",
+      "Number=Sing",
+      "obl"
+     ]
+    ],
+    "contracted": false
+   }
+  ],
+  "n_roots": 1,
+  "ok": true,
+  "reason": ""
+ },
+ {
+  "text": "The students have read these books.",
+  "tokens": [
+   "The",
+   "students",
+   "have",
+   "read",
+   "these",
+   "books."
+  ],
+  "info": [
+   {
+    "upos": "DET",
+    "lemma": "the",
+    "feats": {
+     "Definite": "Def",
+     "PronType": "Art"
+    },
+    "head": 1,
+    "deprel": "det",
+    "words": [
+     [
+      "The",
+      "the",
+      "DET",
+      "Definite=Def|PronType=Art",
+      "det"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "NOUN",
+    "lemma": "student",
+    "feats": {
+     "Number": "Plur"
+    },
+    "head": 3,
+    "deprel": "nsubj",
+    "words": [
+     [
+      "students",
+      "student",
+      "NOUN",
+      "Number=Plur",
+      "nsubj"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "AUX",
+    "lemma": "have",
+    "feats": {
+     "Mood": "Ind",
+     "Number": "Plur",
+     "Person": "3",
+     "Tense": "Pres",
+     "VerbForm": "Fin"
+    },
+    "head": 3,
+    "deprel": "aux",
+    "words": [
+     [
+      "have",
+      "have",
+      "AUX",
+      "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
+      "aux"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "VERB",
+    "lemma": "read",
+    "feats": {
+     "Tense": "Past",
+     "VerbForm": "Part"
+    },
+    "head": -1,
+    "deprel": "root",
+    "words": [
+     [
+      "read",
+      "read",
+      "VERB",
+      "Tense=Past|VerbForm=Part",
+      "root"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "DET",
+    "lemma": "this",
+    "feats": {
+     "Number": "Plur",
+     "PronType": "Dem"
+    },
+    "head": 5,
+    "deprel": "det",
+    "words": [
+     [
+      "these",
+      "this",
+      "DET",
+      "Number=Plur|PronType=Dem",
+      "det"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "NOUN",
+    "lemma": "book",
+    "feats": {
+     "Number": "Plur"
+    },
+    "head": 3,
+    "deprel": "obj",
+    "words": [
+     [
+      "books",
+      "book",
+      "NOUN",
+      "Number=Plur",
+      "obj"
+     ]
+    ],
+    "contracted": false
+   }
+  ],
+  "n_roots": 1,
+  "ok": true,
+  "reason": ""
+ },
+ {
+  "text": "A teacher is talking to the parents.",
+  "tokens": [
+   "A",
+   "teacher",
+   "is",
+   "talking",
+   "to",
+   "the",
+   "parents."
+  ],
+  "info": [
+   {
+    "upos": "DET",
+    "lemma": "a",
+    "feats": {
+     "Definite": "Ind",
+     "PronType": "Art"
+    },
+    "head": 1,
+    "deprel": "det",
+    "words": [
+     [
+      "A",
+      "a",
+      "DET",
+      "Definite=Ind|PronType=Art",
+      "det"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "NOUN",
+    "lemma": "teacher",
+    "feats": {
+     "Number": "Sing"
+    },
+    "head": 3,
+    "deprel": "nsubj",
+    "words": [
+     [
+      "teacher",
+      "teacher",
+      "NOUN",
+      "Number=Sing",
+      "nsubj"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "AUX",
+    "lemma": "be",
+    "feats": {
+     "Mood": "Ind",
+     "Number": "Sing",
+     "Person": "3",
+     "Tense": "Pres",
+     "VerbForm": "Fin"
+    },
+    "head": 3,
+    "deprel": "aux",
+    "words": [
+     [
+      "is",
+      "be",
+      "AUX",
+      "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin",
+      "aux"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "VERB",
+    "lemma": "talk",
+    "feats": {
+     "Tense": "Pres",
+     "VerbForm": "Part"
+    },
+    "head": -1,
+    "deprel": "root",
+    "words": [
+     [
+      "talking",
+      "talk",
+      "VERB",
+      "Tense=Pres|VerbForm=Part",
+      "root"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "ADP",
+    "lemma": "to",
+    "feats": {},
+    "head": 6,
+    "deprel": "case",
+    "words": [
+     [
+      "to",
+      "to",
+      "ADP",
+      "",
+      "case"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "DET",
+    "lemma": "the",
+    "feats": {
+     "Definite": "Def",
+     "PronType": "Art"
+    },
+    "head": 6,
+    "deprel": "det",
+    "words": [
+     [
+      "the",
+      "the",
+      "DET",
+      "Definite=Def|PronType=Art",
+      "det"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "NOUN",
+    "lemma": "parent",
+    "feats": {
+     "Number": "Plur"
+    },
+    "head": 3,
+    "deprel": "obl",
+    "words": [
+     [
+      "parents",
+      "parent",
+      "NOUN",
+      "Number=Plur",
+      "obl"
+     ]
+    ],
+    "contracted": false
+   }
+  ],
+  "n_roots": 1,
+  "ok": true,
+  "reason": ""
+ }
+]

@@ -1,0 +1,154 @@
+# SPDX-License-Identifier: Apache-2.0
+# Source registry. `permissive_for_apache` is true ONLY for Apache-2.0, CC0 and
+# public-domain material. Everything else (CC BY, CC BY-SA, NC, unverified) is
+# false: attribution and licence terms must travel with the sentences.
+#
+# Roles: main = clean sentences for train/validation/test/test_unseen_lemmas,
+#        ood = out-of-domain clean sentences for test_ood_source,
+#        natural = real learner errors for test_natural.
+
+sources:
+  - name: tatoeba
+    loader: tatoeba
+    role: main
+    languages: [en, it]
+    enabled: true
+    url: https://downloads.tatoeba.org/exports/per_language/
+    # Tatoeba sentences are CC BY 2.0 FR by default; a subset is released as CC0.
+    # The per-sentence licence is read from the CC0 export (see lapsus/sources.py).
+    license: CC-BY-2.0
+    license_variants: [CC-BY-2.0, CC0-1.0]
+    permissive_for_apache: false        # CC0 rows are permissive, decided per row
+    attribution: >-
+      Sentences from Tatoeba (https://tatoeba.org), by the Tatoeba contributors
+      named in the source_author column. Licensed CC BY 2.0 FR unless marked CC0 1.0.
+    files:
+      en: [eng/eng_sentences_detailed.tsv.bz2, eng/eng_sentences_CC0.tsv.bz2]
+      it: [ita/ita_sentences_detailed.tsv.bz2, ita/ita_sentences_CC0.tsv.bz2]
+      links: eng/eng-ita_links.tsv.bz2
+
+  - name: coedit_gec
+    loader: coedit
+    role: [ood, natural]
+    languages: [en]
+    enabled: false
+    url: https://huggingface.co/datasets/grammarly/coedit
+    # The HF card says Apache-2.0, but the GEC portion is derived from upstream
+    # corpora (NUCLE, Lang-8, W&I+LOCNESS) whose terms are not verified here.
+    license: LicenseRef-unverified
+    declared_license: Apache-2.0
+    upstream: [NUCLE, Lang-8, W&I+LOCNESS (BEA-2019)]
+    permissive_for_apache: false
+    attribution: >-
+      CoEdIT (Raheja et al., 2023), grammarly/coedit on the Hugging Face Hub, task "gec".
+      Upstream GEC corpora licences are unverified.
+
+  - name: ud_it_pud
+    loader: ud
+    role: ood
+    languages: [it]
+    enabled: false
+    url: https://github.com/UniversalDependencies/UD_Italian-PUD
+    repo: UniversalDependencies/UD_Italian-PUD
+    ud_files: [it_pud-ud-test.conllu]
+    license: CC-BY-SA-3.0
+    permissive_for_apache: false
+    attribution: >-
+      UD Italian PUD (Zeman et al., 2017, CoNLL 2017 Shared Task), CC BY-SA 3.0.
+
+  # Non-commercial treebanks: disabled by default. Enabling any of them makes the
+  # Italian config non-commercial and share-alike. A loud warning is printed.
+  - name: ud_it_isdt
+    loader: ud
+    role: ood
+    languages: [it]
+    enabled: false
+    url: https://github.com/UniversalDependencies/UD_Italian-ISDT
+    repo: UniversalDependencies/UD_Italian-ISDT
+    ud_files: [it_isdt-ud-test.conllu]
+    license: CC-BY-NC-SA-3.0
+    permissive_for_apache: false
+    attribution: UD Italian ISDT (Bosco et al.), CC BY-NC-SA 3.0.
+
+  - name: ud_it_vit
+    loader: ud
+    role: ood
+    languages: [it]
+    enabled: false
+    url: https://github.com/UniversalDependencies/UD_Italian-VIT
+    repo: UniversalDependencies/UD_Italian-VIT
+    ud_files: [it_vit-ud-test.conllu]
+    license: CC-BY-NC-SA-3.0
+    permissive_for_apache: false
+    attribution: UD Italian VIT (Delmonte et al.), CC BY-NC-SA 3.0.
+
+  - name: ud_it_partut
+    loader: ud
+    role: ood
+    languages: [it]
+    enabled: false
+    url: https://github.com/UniversalDependencies/UD_Italian-ParTUT
+    repo: UniversalDependencies/UD_Italian-ParTUT
+    ud_files: [it_partut-ud-test.conllu]
+    license: CC-BY-NC-SA-4.0
+    permissive_for_apache: false
+    attribution: UD Italian ParTUT (Sanguinetti and Bosco), CC BY-NC-SA 4.0.
+
+  - name: ud_it_postwita
+    loader: ud
+    role: ood
+    languages: [it]
+    enabled: false
+    url: https://github.com/UniversalDependencies/UD_Italian-PoSTWITA
+    repo: UniversalDependencies/UD_Italian-PoSTWITA
+    ud_files: [it_postwita-ud-test.conllu]
+    license: CC-BY-NC-SA-4.0
+    permissive_for_apache: false
+    attribution: UD Italian PoSTWITA (Sanguinetti et al.), CC BY-NC-SA 4.0.
+
+# Natural-error files supplied by the user for Italian test_natural (optional).
+# Each line: <erroneous sentence>\t<corrected sentence>. Licence must be declared.
+user_natural:
+  it:
+    path: null
+    license: null
+    attribution: null
+
+# Tools and models used by the pipeline. Their licences are reported in the
+# dataset card. Outputs of these tools (parses, LM scores) are NOT distributed;
+# they only drive filtering and target selection.
+tools:
+  - name: Stanza
+    version_from: stanza
+    license: Apache-2.0
+    notes: Library code.
+  - name: Stanza English models (default "combined" package)
+    license: CC-BY-SA-4.0 (EWT) plus other UD English treebanks
+    noncommercial: false
+    notes: Trained on UD English treebanks; the combined package mixes EWT, GUM and others. Check each treebank licence before redistributing parses.
+  - name: Stanza Italian models (default "combined" package)
+    license: CC-BY-NC-SA (ISDT, VIT, PoSTWITA, TWITTIRO training data)
+    noncommercial: true
+    notes: Model weights derive from non-commercial treebanks. Used only as a tool; no parses are redistributed.
+  - name: LanguageTool
+    version_from: languagetool
+    license: LGPL-2.1-or-later
+  - name: Morph-it!
+    version: "0.48"
+    license: CC-BY-SA-2.0 OR LGPL-3.0
+    notes: Used as a lexicon to generate and validate Italian word forms; not redistributed.
+  - name: LemmInflect
+    version_from: lemminflect
+    license: MIT
+  - name: lingua-language-detector
+    version_from: lingua-language-detector
+    license: Apache-2.0
+  - name: datasketch
+    version_from: datasketch
+    license: MIT
+  - name: openai-community/gpt2
+    license: MIT
+    notes: English causal LM for the LM filter and the minimal-pair verifier.
+  - name: Qwen/Qwen2.5-0.5B
+    license: Apache-2.0
+    notes: Italian causal LM for the LM filter and the verifier (multilingual model). sapienzanlp/Minerva-350M-base-v1.0 (Apache-2.0, Italian-specific, gated) is a drop-in alternative via lm.it in the config.

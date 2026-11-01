@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use Lapsus, please cite it as below."
+title: "Lapsus: a bilingual grammatical acceptability dataset for teaching NLP"
+type: dataset
+version: 0.1.0
+date-released: "2026-11-01"
+license: Apache-2.0
+repository-code: "https://github.com/MorenoLaQuatra/lapsus"
+url: "https://huggingface.co/datasets/morenolq/lapsus"
+authors:
+  - family-names: "La Quatra"
+    given-names: "Moreno"
+    affiliation: "Kore University of Enna"
+keywords:
+  - grammatical acceptability
+  - grammatical error detection
+  - English
+  - Italian
+  - NLP education

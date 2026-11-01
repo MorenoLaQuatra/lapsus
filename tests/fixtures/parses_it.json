@@ -1,0 +1,1369 @@
+[
+ {
+  "text": "I bambini giocano nel giardino.",
+  "tokens": [
+   "I",
+   "bambini",
+   "giocano",
+   "nel",
+   "giardino."
+  ],
+  "info": [
+   {
+    "upos": "DET",
+    "lemma": "il",
+    "feats": {
+     "Definite": "Def",
+     "Gender": "Masc",
+     "Number": "Plur",
+     "PronType": "Art"
+    },
+    "head": 1,
+    "deprel": "det",
+    "words": [
+     [
+      "I",
+      "il",
+      "DET",
+      "Definite=Def|Gender=Masc|Number=Plur|PronType=Art",
+      "det"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "NOUN",
+    "lemma": "bambino",
+    "feats": {
+     "Gender": "Masc",
+     "Number": "Plur"
+    },
+    "head": 2,
+    "deprel": "nsubj",
+    "words": [
+     [
+      "bambini",
+      "bambino",
+      "NOUN",
+      "Gender=Masc|Number=Plur",
+      "nsubj"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "VERB",
+    "lemma": "giocare",
+    "feats": {
+     "Mood": "Ind",
+     "Number": "Plur",
+     "Person": "3",
+     "Tense": "Pres",
+     "VerbForm": "Fin"
+    },
+    "head": -1,
+    "deprel": "root",
+    "words": [
+     [
+      "giocano",
+      "giocare",
+      "VERB",
+      "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
+      "root"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "ADP",
+    "lemma": "in",
+    "feats": {},
+    "head": 4,
+    "deprel": "case",
+    "words": [
+     [
+      "in",
+      "in",
+      "ADP",
+      "",
+      "case"
+     ],
+     [
+      "il",
+      "il",
+      "DET",
+      "Definite=Def|Gender=Masc|Number=Sing|PronType=Art",
+      "det"
+     ]
+    ],
+    "contracted": true
+   },
+   {
+    "upos": "NOUN",
+    "lemma": "giardino",
+    "feats": {
+     "Gender": "Masc",
+     "Number": "Sing"
+    },
+    "head": 2,
+    "deprel": "obl",
+    "words": [
+     [
+      "giardino",
+      "giardino",
+      "NOUN",
+      "Gender=Masc|Number=Sing",
+      "obl"
+     ]
+    ],
+    "contracted": false
+   }
+  ],
+  "n_roots": 1,
+  "ok": true,
+  "reason": ""
+ },
+ {
+  "text": "La ragazza è andata a scuola.",
+  "tokens": [
+   "La",
+   "ragazza",
+   "è",
+   "andata",
+   "a",
+   "scuola."
+  ],
+  "info": [
+   {
+    "upos": "DET",
+    "lemma": "il",
+    "feats": {
+     "Definite": "Def",
+     "Gender": "Fem",
+     "Number": "Sing",
+     "PronType": "Art"
+    },
+    "head": 1,
+    "deprel": "det",
+    "words": [
+     [
+      "La",
+      "il",
+      "DET",
+      "Definite=Def|Gender=Fem|Number=Sing|PronType=Art",
+      "det"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "NOUN",
+    "lemma": "ragazzo",
+    "feats": {
+     "Gender": "Fem",
+     "Number": "Sing"
+    },
+    "head": 3,
+    "deprel": "nsubj",
+    "words": [
+     [
+      "ragazza",
+      "ragazzo",
+      "NOUN",
+      "Gender=Fem|Number=Sing",
+      "nsubj"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "AUX",
+    "lemma": "essere",
+    "feats": {
+     "Mood": "Ind",
+     "Number": "Sing",
+     "Person": "3",
+     "Tense": "Pres",
+     "VerbForm": "Fin"
+    },
+    "head": 3,
+    "deprel": "aux",
+    "words": [
+     [
+      "è",
+      "essere",
+      "AUX",
+      "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin",
+      "aux"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "VERB",
+    "lemma": "andare",
+    "feats": {
+     "Gender": "Fem",
+     "Number": "Sing",
+     "Tense": "Past",
+     "VerbForm": "Part"
+    },
+    "head": -1,
+    "deprel": "root",
+    "words": [
+     [
+      "andata",
+      "andare",
+      "VERB",
+      "Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part",
+      "root"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "ADP",
+    "lemma": "a",
+    "feats": {},
+    "head": 5,
+    "deprel": "case",
+    "words": [
+     [
+      "a",
+      "a",
+      "ADP",
+      "",
+      "case"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "NOUN",
+    "lemma": "scuola",
+    "feats": {
+     "Gender": "Fem",
+     "Number": "Sing"
+    },
+    "head": 3,
+    "deprel": "obl",
+    "words": [
+     [
+      "scuola",
+      "scuola",
+      "NOUN",
+      "Gender=Fem|Number=Sing",
+      "obl"
+     ]
+    ],
+    "contracted": false
+   }
+  ],
+  "n_roots": 1,
+  "ok": true,
+  "reason": ""
+ },
+ {
+  "text": "Il libro rosso è sul tavolo.",
+  "tokens": [
+   "Il",
+   "libro",
+   "rosso",
+   "è",
+   "sul",
+   "tavolo."
+  ],
+  "info": [
+   {
+    "upos": "DET",
+    "lemma": "il",
+    "feats": {
+     "Definite": "Def",
+     "Gender": "Masc",
+     "Number": "Sing",
+     "PronType": "Art"
+    },
+    "head": 1,
+    "deprel": "det",
+    "words": [
+     [
+      "Il",
+      "il",
+      "DET",
+      "Definite=Def|Gender=Masc|Number=Sing|PronType=Art",
+      "det"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "NOUN",
+    "lemma": "libro",
+    "feats": {
+     "Gender": "Masc",
+     "Number": "Sing"
+    },
+    "head": 5,
+    "deprel": "nsubj",
+    "words": [
+     [
+      "libro",
+      "libro",
+      "NOUN",
+      "Gender=Masc|Number=Sing",
+      "nsubj"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "ADJ",
+    "lemma": "rosso",
+    "feats": {
+     "Gender": "Masc",
+     "Number": "Sing"
+    },
+    "head": 1,
+    "deprel": "amod",
+    "words": [
+     [
+      "rosso",
+      "rosso",
+      "ADJ",
+      "Gender=Masc|Number=Sing",
+      "amod"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "AUX",
+    "lemma": "essere",
+    "feats": {
+     "Mood": "Ind",
+     "Number": "Sing",
+     "Person": "3",
+     "Tense": "Pres",
+     "VerbForm": "Fin"
+    },
+    "head": 5,
+    "deprel": "cop",
+    "words": [
+     [
+      "è",
+      "essere",
+      "AUX",
+      "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin",
+      "cop"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "ADP",
+    "lemma": "su",
+    "feats": {},
+    "head": 5,
+    "deprel": "case",
+    "words": [
+     [
+      "su",
+      "su",
+      "ADP",
+      "",
+      "case"
+     ],
+     [
+      "il",
+      "il",
+      "DET",
+      "Definite=Def|Gender=Masc|Number=Sing|PronType=Art",
+      "det"
+     ]
+    ],
+    "contracted": true
+   },
+   {
+    "upos": "NOUN",
+    "lemma": "tavolo",
+    "feats": {
+     "Gender": "Masc",
+     "Number": "Sing"
+    },
+    "head": -1,
+    "deprel": "root",
+    "words": [
+     [
+      "tavolo",
+      "tavolo",
+      "NOUN",
+      "Gender=Masc|Number=Sing",
+      "root"
+     ]
+    ],
+    "contracted": false
+   }
+  ],
+  "n_roots": 1,
+  "ok": true,
+  "reason": ""
+ },
+ {
+  "text": "Mia sorella ha comprato una macchina nuova.",
+  "tokens": [
+   "Mia",
+   "sorella",
+   "ha",
+   "comprato",
+   "una",
+   "macchina",
+   "nuova."
+  ],
+  "info": [
+   {
+    "upos": "DET",
+    "lemma": "mio",
+    "feats": {
+     "Gender": "Fem",
+     "Number": "Sing",
+     "Poss": "Yes",
+     "PronType": "Prs"
+    },
+    "head": 1,
+    "deprel": "det:poss",
+    "words": [
+     [
+      "Mia",
+      "mio",
+      "DET",
+      "Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs",
+      "det:poss"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "NOUN",
+    "lemma": "sorella",
+    "feats": {
+     "Gender": "Fem",
+     "Number": "Sing"
+    },
+    "head": 3,
+    "deprel": "nsubj",
+    "words": [
+     [
+      "sorella",
+      "sorella",
+      "NOUN",
+      "Gender=Fem|Number=Sing",
+      "nsubj"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "AUX",
+    "lemma": "avere",
+    "feats": {
+     "Mood": "Ind",
+     "Number": "Sing",
+     "Person": "3",
+     "Tense": "Pres",
+     "VerbForm": "Fin"
+    },
+    "head": 3,
+    "deprel": "aux",
+    "words": [
+     [
+      "ha",
+      "avere",
+      "AUX",
+      "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin",
+      "aux"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "VERB",
+    "lemma": "comprare",
+    "feats": {
+     "Gender": "Masc",
+     "Number": "Sing",
+     "Tense": "Past",
+     "VerbForm": "Part"
+    },
+    "head": -1,
+    "deprel": "root",
+    "words": [
+     [
+      "comprato",
+      "comprare",
+      "VERB",
+      "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part",
+      "root"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "DET",
+    "lemma": "uno",
+    "feats": {
+     "Definite": "Ind",
+     "Gender": "Fem",
+     "Number": "Sing",
+     "PronType": "Art"
+    },
+    "head": 5,
+    "deprel": "det",
+    "words": [
+     [
+      "una",
+      "uno",
+      "DET",
+      "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art",
+      "det"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "NOUN",
+    "lemma": "macchina",
+    "feats": {
+     "Gender": "Fem",
+     "Number": "Sing"
+    },
+    "head": 3,
+    "deprel": "obj",
+    "words": [
+     [
+      "macchina",
+      "macchina",
+      "NOUN",
+      "Gender=Fem|Number=Sing",
+      "obj"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "ADJ",
+    "lemma": "nuovo",
+    "feats": {
+     "Gender": "Fem",
+     "Number": "Sing"
+    },
+    "head": 5,
+    "deprel": "amod",
+    "words": [
+     [
+      "nuova",
+      "nuovo",
+      "ADJ",
+      "Gender=Fem|Number=Sing",
+      "amod"
+     ]
+    ],
+    "contracted": false
+   }
+  ],
+  "n_roots": 1,
+  "ok": true,
+  "reason": ""
+ },
+ {
+  "text": "Ho visto l'uomo della stazione.",
+  "tokens": [
+   "Ho",
+   "visto",
+   "l'",
+   "uomo",
+   "della",
+   "stazione."
+  ],
+  "info": [
+   {
+    "upos": "AUX",
+    "lemma": "avere",
+    "feats": {
+     "Mood": "Ind",
+     "Number": "Sing",
+     "Person": "1",
+     "Tense": "Pres",
+     "VerbForm": "Fin"
+    },
+    "head": 1,
+    "deprel": "aux",
+    "words": [
+     [
+      "Ho",
+      "avere",
+      "AUX",
+      "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
+      "aux"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "VERB",
+    "lemma": "vedere",
+    "feats": {
+     "Gender": "Masc",
+     "Number": "Sing",
+     "Tense": "Past",
+     "VerbForm": "Part"
+    },
+    "head": -1,
+    "deprel": "root",
+    "words": [
+     [
+      "visto",
+      "vedere",
+      "VERB",
+      "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part",
+      "root"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "DET",
+    "lemma": "il",
+    "feats": {
+     "Definite": "Def",
+     "Number": "Sing",
+     "PronType": "Art"
+    },
+    "head": 3,
+    "deprel": "det",
+    "words": [
+     [
+      "l'",
+      "il",
+      "DET",
+      "Definite=Def|Number=Sing|PronType=Art",
+      "det"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "NOUN",
+    "lemma": "uomo",
+    "feats": {
+     "Gender": "Masc",
+     "Number": "Sing"
+    },
+    "head": 1,
+    "deprel": "obj",
+    "words": [
+     [
+      "uomo",
+      "uomo",
+      "NOUN",
+      "Gender=Masc|Number=Sing",
+      "obj"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "ADP",
+    "lemma": "di",
+    "feats": {},
+    "head": 5,
+    "deprel": "case",
+    "words": [
+     [
+      "di",
+      "di",
+      "ADP",
+      "",
+      "case"
+     ],
+     [
+      "la",
+      "il",
+      "DET",
+      "Definite=Def|Gender=Fem|Number=Sing|PronType=Art",
+      "det"
+     ]
+    ],
+    "contracted": true
+   },
+   {
+    "upos": "NOUN",
+    "lemma": "stazione",
+    "feats": {
+     "Gender": "Fem",
+     "Number": "Sing"
+    },
+    "head": 3,
+    "deprel": "nmod",
+    "words": [
+     [
+      "stazione",
+      "stazione",
+      "NOUN",
+      "Gender=Fem|Number=Sing",
+      "nmod"
+     ]
+    ],
+    "contracted": false
+   }
+  ],
+  "n_roots": 1,
+  "ok": true,
+  "reason": ""
+ },
+ {
+  "text": "Il gatto dorme sul divano.",
+  "tokens": [
+   "Il",
+   "gatto",
+   "dorme",
+   "sul",
+   "divano."
+  ],
+  "info": [
+   {
+    "upos": "DET",
+    "lemma": "il",
+    "feats": {
+     "Definite": "Def",
+     "Gender": "Masc",
+     "Number": "Sing",
+     "PronType": "Art"
+    },
+    "head": 1,
+    "deprel": "det",
+    "words": [
+     [
+      "Il",
+      "il",
+      "DET",
+      "Definite=Def|Gender=Masc|Number=Sing|PronType=Art",
+      "det"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "NOUN",
+    "lemma": "gatto",
+    "feats": {
+     "Gender": "Masc",
+     "Number": "Sing"
+    },
+    "head": 2,
+    "deprel": "nsubj",
+    "words": [
+     [
+      "gatto",
+      "gatto",
+      "NOUN",
+      "Gender=Masc|Number=Sing",
+      "nsubj"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "VERB",
+    "lemma": "dormire",
+    "feats": {
+     "Mood": "Ind",
+     "Number": "Sing",
+     "Person": "3",
+     "Tense": "Pres",
+     "VerbForm": "Fin"
+    },
+    "head": -1,
+    "deprel": "root",
+    "words": [
+     [
+      "dorme",
+      "dormire",
+      "VERB",
+      "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin",
+      "root"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "ADP",
+    "lemma": "su",
+    "feats": {},
+    "head": 4,
+    "deprel": "case",
+    "words": [
+     [
+      "su",
+      "su",
+      "ADP",
+      "",
+      "case"
+     ],
+     [
+      "il",
+      "il",
+      "DET",
+      "Definite=Def|Gender=Masc|Number=Sing|PronType=Art",
+      "det"
+     ]
+    ],
+    "contracted": true
+   },
+   {
+    "upos": "NOUN",
+    "lemma": "divano",
+    "feats": {
+     "Gender": "Masc",
+     "Number": "Sing"
+    },
+    "head": 2,
+    "deprel": "obl",
+    "words": [
+     [
+      "divano",
+      "divano",
+      "NOUN",
+      "Gender=Masc|Number=Sing",
+      "obl"
+     ]
+    ],
+    "contracted": false
+   }
+  ],
+  "n_roots": 1,
+  "ok": true,
+  "reason": ""
+ },
+ {
+  "text": "Le ragazze sono stanche.",
+  "tokens": [
+   "Le",
+   "ragazze",
+   "sono",
+   "stanche."
+  ],
+  "info": [
+   {
+    "upos": "DET",
+    "lemma": "il",
+    "feats": {
+     "Definite": "Def",
+     "Gender": "Fem",
+     "Number": "Plur",
+     "PronType": "Art"
+    },
+    "head": 1,
+    "deprel": "det",
+    "words": [
+     [
+      "Le",
+      "il",
+      "DET",
+      "Definite=Def|Gender=Fem|Number=Plur|PronType=Art",
+      "det"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "NOUN",
+    "lemma": "ragazzo",
+    "feats": {
+     "Gender": "Fem",
+     "Number": "Plur"
+    },
+    "head": 3,
+    "deprel": "nsubj",
+    "words": [
+     [
+      "ragazze",
+      "ragazzo",
+      "NOUN",
+      "Gender=Fem|Number=Plur",
+      "nsubj"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "AUX",
+    "lemma": "essere",
+    "feats": {
+     "Mood": "Ind",
+     "Number": "Plur",
+     "Person": "3",
+     "Tense": "Pres",
+     "VerbForm": "Fin"
+    },
+    "head": 3,
+    "deprel": "cop",
+    "words": [
+     [
+      "sono",
+      "essere",
+      "AUX",
+      "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin",
+      "cop"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "ADJ",
+    "lemma": "stanco",
+    "feats": {
+     "Gender": "Fem",
+     "Number": "Plur"
+    },
+    "head": -1,
+    "deprel": "root",
+    "words": [
+     [
+      "stanche",
+      "stanco",
+      "ADJ",
+      "Gender=Fem|Number=Plur",
+      "root"
+     ]
+    ],
+    "contracted": false
+   }
+  ],
+  "n_roots": 1,
+  "ok": true,
+  "reason": ""
+ },
+ {
+  "text": "Voglio andare al mare con gli amici.",
+  "tokens": [
+   "Voglio",
+   "andare",
+   "al",
+   "mare",
+   "con",
+   "gli",
+   "amici."
+  ],
+  "info": [
+   {
+    "upos": "AUX",
+    "lemma": "volere",
+    "feats": {
+     "Mood": "Ind",
+     "Number": "Sing",
+     "Person": "1",
+     "Tense": "Pres",
+     "VerbForm": "Fin"
+    },
+    "head": 1,
+    "deprel": "aux",
+    "words": [
+     [
+      "Voglio",
+      "volere",
+      "AUX",
+      "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin",
+      "aux"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "VERB",
+    "lemma": "andare",
+    "feats": {
+     "VerbForm": "Inf"
+    },
+    "head": -1,
+    "deprel": "root",
+    "words": [
+     [
+      "andare",
+      "andare",
+      "VERB",
+      "VerbForm=Inf",
+      "root"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "ADP",
+    "lemma": "a",
+    "feats": {},
+    "head": 3,
+    "deprel": "case",
+    "words": [
+     [
+      "a",
+      "a",
+      "ADP",
+      "",
+      "case"
+     ],
+     [
+      "il",
+      "il",
+      "DET",
+      "Definite=Def|Gender=Masc|Number=Sing|PronType=Art",
+      "det"
+     ]
+    ],
+    "contracted": true
+   },
+   {
+    "upos": "NOUN",
+    "lemma": "mare",
+    "feats": {
+     "Gender": "Masc",
+     "Number": "Sing"
+    },
+    "head": 1,
+    "deprel": "obl",
+    "words": [
+     [
+      "mare",
+      "mare",
+      "NOUN",
+      "Gender=Masc|Number=Sing",
+      "obl"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "ADP",
+    "lemma": "con",
+    "feats": {},
+    "head": 6,
+    "deprel": "case",
+    "words": [
+     [
+      "con",
+      "con",
+      "ADP",
+      "",
+      "case"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "DET",
+    "lemma": "il",
+    "feats": {
+     "Definite": "Def",
+     "Gender": "Masc",
+     "Number": "Plur",
+     "PronType": "Art"
+    },
+    "head": 6,
+    "deprel": "det",
+    "words": [
+     [
+      "gli",
+      "il",
+      "DET",
+      "Definite=Def|Gender=Masc|Number=Plur|PronType=Art",
+      "det"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "NOUN",
+    "lemma": "amico",
+    "feats": {
+     "Gender": "Masc",
+     "Number": "Plur"
+    },
+    "head": 1,
+    "deprel": "obl",
+    "words": [
+     [
+      "amici",
+      "amico",
+      "NOUN",
+      "Gender=Masc|Number=Plur",
+      "obl"
+     ]
+    ],
+    "contracted": false
+   }
+  ],
+  "n_roots": 1,
+  "ok": true,
+  "reason": ""
+ },
+ {
+  "text": "Lui si è svegliato presto.",
+  "tokens": [
+   "Lui",
+   "si",
+   "è",
+   "svegliato",
+   "presto."
+  ],
+  "info": [
+   {
+    "upos": "PRON",
+    "lemma": "lui",
+    "feats": {
+     "Gender": "Masc",
+     "Number": "Sing",
+     "Person": "3",
+     "PronType": "Prs"
+    },
+    "head": 3,
+    "deprel": "nsubj",
+    "words": [
+     [
+      "Lui",
+      "lui",
+      "PRON",
+      "Gender=Masc|Number=Sing|Person=3|PronType=Prs",
+      "nsubj"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "PRON",
+    "lemma": "si",
+    "feats": {
+     "Clitic": "Yes",
+     "Person": "3",
+     "PronType": "Prs"
+    },
+    "head": 3,
+    "deprel": "expl",
+    "words": [
+     [
+      "si",
+      "si",
+      "PRON",
+      "Clitic=Yes|Person=3|PronType=Prs",
+      "expl"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "AUX",
+    "lemma": "essere",
+    "feats": {
+     "Mood": "Ind",
+     "Number": "Sing",
+     "Person": "3",
+     "Tense": "Pres",
+     "VerbForm": "Fin"
+    },
+    "head": 3,
+    "deprel": "aux",
+    "words": [
+     [
+      "è",
+      "essere",
+      "AUX",
+      "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin",
+      "aux"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "VERB",
+    "lemma": "svegliare",
+    "feats": {
+     "Gender": "Masc",
+     "Number": "Sing",
+     "Tense": "Past",
+     "VerbForm": "Part"
+    },
+    "head": -1,
+    "deprel": "root",
+    "words": [
+     [
+      "svegliato",
+      "svegliare",
+      "VERB",
+      "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part",
+      "root"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "ADV",
+    "lemma": "presto",
+    "feats": {},
+    "head": 3,
+    "deprel": "advmod",
+    "words": [
+     [
+      "presto",
+      "presto",
+      "ADV",
+      "",
+      "advmod"
+     ]
+    ],
+    "contracted": false
+   }
+  ],
+  "n_roots": 1,
+  "ok": true,
+  "reason": ""
+ },
+ {
+  "text": "Questa casa ha un giardino grande.",
+  "tokens": [
+   "Questa",
+   "casa",
+   "ha",
+   "un",
+   "giardino",
+   "grande."
+  ],
+  "info": [
+   {
+    "upos": "DET",
+    "lemma": "questo",
+    "feats": {
+     "Gender": "Fem",
+     "Number": "Sing",
+     "PronType": "Dem"
+    },
+    "head": 1,
+    "deprel": "det",
+    "words": [
+     [
+      "Questa",
+      "questo",
+      "DET",
+      "Gender=Fem|Number=Sing|PronType=Dem",
+      "det"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "NOUN",
+    "lemma": "casa",
+    "feats": {
+     "Gender": "Fem",
+     "Number": "Sing"
+    },
+    "head": 2,
+    "deprel": "nsubj",
+    "words": [
+     [
+      "casa",
+      "casa",
+      "NOUN",
+      "Gender=Fem|Number=Sing",
+      "nsubj"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "VERB",
+    "lemma": "avere",
+    "feats": {
+     "Mood": "Ind",
+     "Number": "Sing",
+     "Person": "3",
+     "Tense": "Pres",
+     "VerbForm": "Fin"
+    },
+    "head": -1,
+    "deprel": "root",
+    "words": [
+     [
+      "ha",
+      "avere",
+      "VERB",
+      "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin",
+      "root"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "DET",
+    "lemma": "uno",
+    "feats": {
+     "Definite": "Ind",
+     "Gender": "Masc",
+     "Number": "Sing",
+     "PronType": "Art"
+    },
+    "head": 4,
+    "deprel": "det",
+    "words": [
+     [
+      "un",
+      "uno",
+      "DET",
+      "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art",
+      "det"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "NOUN",
+    "lemma": "giardino",
+    "feats": {
+     "Gender": "Masc",
+     "Number": "Sing"
+    },
+    "head": 2,
+    "deprel": "obj",
+    "words": [
+     [
+      "giardino",
+      "giardino",
+      "NOUN",
+      "Gender=Masc|Number=Sing",
+      "obj"
+     ]
+    ],
+    "contracted": false
+   },
+   {
+    "upos": "ADJ",
+    "lemma": "grande",
+    "feats": {
+     "Number": "Sing"
+    },
+    "head": 4,
+    "deprel": "amod",
+    "words": [
+     [
+      "grande",
+      "grande",
+      "ADJ",
+      "Number=Sing",
+      "amod"
+     ]
+    ],
+    "contracted": false
+   }
+  ],
+  "n_roots": 1,
+  "ok": true,
+  "reason": ""
+ }
+]

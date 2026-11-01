@@ -1,0 +1,68 @@
+# SPDX-License-Identifier: Apache-2.0
+# Default configuration for the Lapsus builder. Every value can be overridden
+# from the CLI (see `python -m lapsus --help`) or with a custom YAML via --config.
+
+seed: 42
+lang: both                 # en | it | both
+normalize: lower_nopunct   # none | lower | lower_nopunct
+license_mode: auto         # auto | apache-strict | source-licenses
+min_sentences: 15000       # permissive-pool threshold per language (auto / apache-strict)
+
+paths:
+  raw: data/raw            # downloaded corpora (never committed)
+  cache: data/cache        # Stanza models, parse cache, LanguageTool and LM caches
+  out: out                 # csv, jsonl, DatasetDict, reports
+  audit: audit             # audit CSVs for human annotation
+  release: release         # packaged release folders
+
+filters:
+  min_tokens: 5
+  max_tokens: 20
+  max_proper_nouns: 1
+  name_cap: 0.02           # max share of the pool for any single proper noun
+  lm_drop_fraction: 0.05   # drop lowest 5 percent mean log-prob per length bucket
+  length_buckets: [5, 8, 11, 15, 21]   # bucket edges on whitespace tokens, [lo, hi)
+  near_dup_threshold: 0.8  # Jaccard threshold for MinHash near-duplicates on lemma shingles
+  minhash_num_perm: 128
+  pool_target: 36000       # stop the expensive filters once this many sentences survive (per language)
+  chunk_size: 6000         # sentences per expensive-filter chunk
+
+splits:
+  train: 12000
+  validation: 1500
+  test: 1500
+  test_unseen_lemmas: 1500
+  test_ood_source: 1000
+  test_natural: 1000
+  surplus: 0.2             # extra sentences per split (best effort) so corruption failures do not distort the mix
+
+mix:
+  clean: 0.5
+  single: 0.3              # balanced over the 5 operations
+  multi: 0.2               # 2 or 3 different operations
+  multi_three_fraction: 0.5
+
+verify:
+  target_pass_rate: 0.9    # delta is calibrated so that this share of candidates passes overall
+  min_delta: 0.0           # delta is never allowed below this value
+  delta: null              # set a number to skip calibration
+  calibration_per_op: 400
+  max_attempts: 6          # corruption attempts per sentence and op
+
+lm:
+  en: openai-community/gpt2
+  it: Qwen/Qwen2.5-0.5B
+  batch_size: 64
+  device: auto             # auto | cpu | cuda | mps
+
+stanza:
+  use_gpu: auto
+  batch_size: 256
+
+languagetool:
+  version: "6.6"
+  threads: 4
+
+audit:
+  n_clean: 200
+  n_corrupted: 200
